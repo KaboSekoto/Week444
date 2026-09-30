@@ -6,7 +6,7 @@
 |---|---|
 | **Prepared by** | Kabo Sekoto |
 | **Programme** | NetworkWalks Internship Programme |
-| **Assessment** | Black-Box Web Application Penetration Test |
+| **Assessment** | Black Box Web Application Penetration Test |
 | **Target** | `medirozahospital.com` |
 | **Date** | September 2026 |
 | **Classification** | **Confidential — Authorised Personnel Only** |
@@ -46,7 +46,7 @@ Testing was performed within the authorised scope using standard penetration tes
 | Category               | Details              |
 | ---------------------- | -------------------- |
 | **Target**             | medirozahospital.com |
-| **Test Type**          | Black-Box            |
+| **Test Type**          | Black Box            |
 | **Scope**              | Target domain        |
 | **Duration**           | 3 Days               |
 | **Authorisation**      | Granted              |
@@ -63,7 +63,7 @@ Testing was performed within the authorised scope using standard penetration tes
 
 | Tool            | Purpose                  |
 | --------------- | ------------------------ |
-| Nmap            | Port & service discovery |
+| Nmap            | Port and service discovery |
 | Gobuster        | Directory enumeration    |
 | cURL            | HTTP testing             |
 | Firefox         | Manual testing           |
@@ -144,7 +144,7 @@ A single quotation mark caused the application to return a MySQL syntax error, c
 
 ```text
 Username: admin'--
-Password: anything
+Password: any value provided
 ```
 
 The application subsequently granted access to the protected patient portal.
@@ -338,7 +338,7 @@ Sensitive Data Exposure
 
 ## 🟠 SHORT TERM
 
-* Enforce strong document-password requirements.
+* Enforce strong document password requirements.
 * Disable directory indexing.
 * Review `robots.txt` disclosures.
 * Implement generic authentication error messages.
@@ -354,7 +354,7 @@ Sensitive Data Exposure
 
 * Conduct regular penetration testing.
 * Implement a Secure Development Lifecycle.
-* Establish an incident-response process.
+* Establish an incident response process.
 * Provide security awareness training.
 
 ---
@@ -367,7 +367,7 @@ The primary risks were associated with **SQL injection, authentication bypass, e
 
 The assessment also demonstrated how multiple lower-level weaknesses can be combined into a broader attack path.
 
-Priority should be given to correcting the authentication and database-exposure vulnerabilities, followed by improvements to access control, server configuration and secure development practices.
+Priority should be given to correcting the authentication and database exposure vulnerabilities, followed by improvements to access control, server configuration and secure development practices.
 
 ---
 
