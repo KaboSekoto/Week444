@@ -2,22 +2,24 @@
 
 ## Web Application Penetration Testing Report
 
-**Prepared by:** Kabo Sekoto
-**Programme:** NetworkWalks Internship Programme
-**Assessment:** Black-Box Web Application Penetration Test
-**Target:** medirozahospital.com
-**Date:** September 2026
-**Classification:** Confidential — Authorised Personnel Only
+| **Assessment Information** | **Details** |
+|---|---|
+| **Prepared by** | Kabo Sekoto |
+| **Programme** | NetworkWalks Internship Programme |
+| **Assessment** | Black-Box Web Application Penetration Test |
+| **Target** | `medirozahospital.com` |
+| **Date** | September 2026 |
+| **Classification** | **Confidential — Authorised Personnel Only** |
 
 ---
 
 # 01 — EXECUTIVE SUMMARY
 
-A black-box penetration test was conducted against the authorised Mediroza General Hospital web application.
+A black box penetration test was conducted against the authorised Mediroza General Hospital web application.
 
 The assessment identified multiple vulnerabilities affecting authentication, file exposure, information disclosure and application security. Several weaknesses could be chained together to gain access to sensitive application data.
 
-Testing was performed within the authorised scope using standard penetration-testing tools and techniques.
+Testing was performed within the authorised scope using standard penetration testing tools and techniques.
 
 ### Overall Risk
 
